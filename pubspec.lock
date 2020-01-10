@@ -47,11 +47,11 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/cloud_firestore"
-      ref: HEAD
-      resolved-ref: "245fbe300e797810723c01684b080ccddea873f5"
+      ref: "rpf.add-in-and-array-contains"
+      resolved-ref: "497202eab65c41f2baeaf8badbadefdb11b6975b"
       url: "https://github.com/rosariopfernandes/flutterfire.git"
     source: git
-    version: "0.12.9+6"
+    version: "0.12.11"
   collection:
     dependency: transitive
     description:
