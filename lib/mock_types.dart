@@ -49,6 +49,8 @@ class MockCollectionReference extends Mock implements CollectionReference {
     dynamic isGreaterThanOrEqualTo,
     dynamic arrayContains,
     bool isNull,
+    List<dynamic> arrayContainsAny,
+    List<dynamic> whereIn
   }) {
     Map<String, dynamic> data;
     List<String> conditions = [];
