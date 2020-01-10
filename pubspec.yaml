@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cloud_firestore: ^0.12.5+2
+  cloud_firestore:
+    git: 
+      url: https://github.com/rosariopfernandes/flutterfire.git
+      path: packages/cloud_firestore
   mockito: ^4.0.0
   test: ^1.5.3
 
